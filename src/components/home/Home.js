@@ -6,6 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import resume from "../../info/Resume.pdf";
 
 export default function Home() {
 
@@ -16,13 +17,19 @@ export default function Home() {
               height={{xs: '35vh', md: '40vh'}}
               borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
          <Box>
-            <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName} {info.lastName}</span><span className={Style.hand}>🤚</span>
+            <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName} {info.lastName}</span><span className={Style.hand}>👋</span>
             </h1>
             <h2>I'm {info.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
+               <Box component={'li'} fontSize={'1rem'} lineHeight={1.5} style={{cursor: 'default'}}>
+                     <Box component={'span'} aria-label="cheese"
+                        role="img"
+                        display={"inline-block"} width={"5%"} textAlign={"center"}
+                        mr={{xs: '0.5rem', md: '1rem'}} fontSize={'1.5rem'}>🗎</Box><a href={resume} target="_blank" rel="noreferrer">Resume&nbsp;&nbsp;<span class="fa fa-external-link"></span></a>
+               </Box>
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'left'} fontSize={{xs: '2rem', md: '2.5rem'}}>
                {info.socials.map((social, index) => (
