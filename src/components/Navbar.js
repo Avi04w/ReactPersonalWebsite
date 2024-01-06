@@ -42,8 +42,8 @@ export default function Navbar({darkMode, handleClick}) {
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                          sx={{borderImageSource: info.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
-                            {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                            {!link.type && <p style={{padding: '0.5rem 0', fontSize: '1.2rem'}}>{link.name}</p>}
+                            {link.type && <h1 style={{fontSize: '3.5rem'}}>{link.name}</h1>}
                         </Link>
                     </Box>
                 ))}
