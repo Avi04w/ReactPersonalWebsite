@@ -50,7 +50,7 @@ export const info = {
         }
     ],
     
-    bio: "Hello! My name is Avi Walia. I am a second-year computer science student at UoFT completing a specialist degree in data science. I most recently worked as a full-stack developer in a summer coop position at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
+    bio: "Hello! My name is Avi Walia. I am a second-year computer science student at UofT completing a specialist degree in data science. I most recently worked as a full-stack developer in a summer coop position at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
     skills:
         {
             proficientWith: ['Python', 'Java', 'SQL', 'Pandas', 'HTML/CSS', 'Javascript', 'React', 'NumPy', 'Flask', 'Git'],
