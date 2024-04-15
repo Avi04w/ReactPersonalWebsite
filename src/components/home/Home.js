@@ -6,7 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
-import resume from "../../info/Resume.pdf";
+import resume from "../../info/Avi_Walia_Resume_DS.pdf";
 
 export default function Home() {
 
@@ -28,7 +28,7 @@ export default function Home() {
                      <Box component={'span'} aria-label="cheese"
                         role="img"
                         display={"inline-block"} width={"5%"} textAlign={"center"}
-                        mr={{xs: '0.5rem', md: '1rem'}} fontSize={'1.5rem'}>🗎</Box><a href={resume} target="_blank" rel="noreferrer">Resume&nbsp;&nbsp;<span class="fa fa-external-link"></span></a>
+                        mr={{xs: '0.5rem', md: '1rem'}} fontSize={'1.5rem'}>📄</Box><a href={resume} target="_blank" rel="noreferrer">Resume&nbsp;<span class="fa fa-external-link"></span></a>
                </Box>
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'left'} fontSize={{xs: '2rem', md: '2.5rem'}}>
