@@ -6,7 +6,7 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
-import resume from "../../info/Avi_Walia_Resume_DS.pdf";
+import resume from "../../info/Avi Walia Resume.pdf";
 
 export default function Home() {
 
