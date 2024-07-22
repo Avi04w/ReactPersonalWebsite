@@ -1,4 +1,5 @@
-import mazeRunner from "../img/mazeRunner.png"
+// import mazeRunner from "../img/mazeRunner.png"
+import twitter from "../img/twitterimg.png"
 import uFound from "../img/uFound.png"
 import spotifyManager from "../img/spotify.png"
 import cineMatch from "../img/cinematch.png"
@@ -81,6 +82,12 @@ export const info = {
     ],
     portfolio: [ 
         {
+            title: "Twitter Data Analysis",
+            description: "This is a trend analysis on recent tweets mentioning Toronto using an unsupervised learning model. I extracted tweets using the Tweepy library and Twitter API, cleaned the data with libraries such as Pandas and NLTK, and applied Latent Dirichlet Allocation (LDA) to identify topics. By evaluating model coherence scores, I ensured accurate and meaningful topic identification, providing insights into current social media trends.",
+            source: "https://github.com/Avi04w/Twitter-Analysis",
+            image: twitter,
+        },
+        {
             title: "Spotify Manager",
             description: "I created a spotify spoof that allows users to control their Spotify playback on any device. The app will detect any device that you are logged in to and your current playback will be displayed on the player. It makes requests to the Spotify API such as pause, play, skip, etc., using OkHttp and uses the OAuth 2.0 Authentication Code Flow to authenticate users and access their Spotify accounts. I created this app using Java and the GUI was made with Java Swing. Something else about me is that this is my favourite song!",
             source: "https://github.com/Avi04w/SpotifyManager",
@@ -97,12 +104,6 @@ export const info = {
             description: "This is a React JavaScript web application. It is an online lost and found for Uoft Students. If users find a lost item on campus, they can create a posting with an image of the item along with the location of where they found it. The information is stored using a NoSQL document database, Google FireStore.",
             source: "https://github.com/Avi04w/uoft-lost-and-found",
             image: uFound
-        },
-        {
-            title: "Maze Runner",
-            description: "This is a Python game I created that creates mazes for you to solve. It does this using graphs and nodes and uses a recursion and DFS algorithm to find the solution if you cannot find it. The front end is programmed using the PyGame library.",
-            source: "https://github.com/Avi04w/Maze",
-            image: mazeRunner,
         },
     ]
 }
