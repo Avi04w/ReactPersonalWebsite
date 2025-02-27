@@ -12,7 +12,7 @@ export const info = {
     firstName: "Avi",
     lastName: "Walia",
     initials: "aw", 
-    position: "a Data Scientist and Full Stack Developer",
+    position: "a Data Scientist and Software Developer",
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
     miniBio: [ 
@@ -26,11 +26,11 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Full-Stack Developer at Third Eye Solutions"
+            text: "Incoming Software Development Engineer Intern at Amazon"
         },
         {
             emoji: "📧",
-            text: "av9.walia@gmail.com"
+            text: "avi.walia@mail.utoronto.ca"
         },
     ],
     socials: [
@@ -51,7 +51,7 @@ export const info = {
         }
     ],
     
-    bio: "Hello! My name is Avi Walia. I am a third-year computer science student at UofT completing a specialist degree in data science. I most recently worked as a full-stack developer in a summer coop position at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
+    bio: "Hello! My name is Avi Walia. I am a third-year computer science student at UofT completing a specialist degree in data science. I am an incoming SDE intern at Amazon and I most recently worked as a full-stack developer in a summer coop position at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
     skills:
         {
             proficientWith: ['Python', 'SQL', 'Pandas', 'NumPy', 'scikit-learn', 'GCP Firebase', 'HTML/CSS', 'Java', 'R', 'Javascript', 'React', 'Flask', 'C', 'Apache Maven'],
