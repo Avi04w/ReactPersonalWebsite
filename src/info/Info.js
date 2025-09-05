@@ -52,7 +52,7 @@ export const info = {
         }
     ],
     
-    bio: "Hello! My name is Avi Walia. I am a third-year computer science student at UofT completing a specialist degree in data science. I am an incoming SDE intern at Amazon and I most recently worked as a full-stack developer in a summer coop position at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
+    bio: "Hello! My name is Avi Walia. I am a fourth-year computer science student at UofT completing a specialist degree in data science. I was recently an SDE intern at Amazon and a full-stack developer intern at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
     skills:
         {
             proficientWith: ['Python', 'SQL', 'Pandas', 'NumPy', 'scikit-learn', 'GCP Firebase', 'HTML/CSS', 'Java', 'R', 'Javascript', 'React', 'Flask', 'C', 'Apache Maven'],
