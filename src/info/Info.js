@@ -1,6 +1,7 @@
 // import mazeRunner from "../img/mazeRunner.png"
 import twitter from "../img/twitterimg.png"
-import uFound from "../img/uFound.png"
+// import uFound from "../img/uFound.png"
+import torontosubway from "../img/TorontoSubwayPic.png"
 import spotifyManager from "../img/spotify.png"
 import cineMatch from "../img/cinematch.png"
 
@@ -82,6 +83,16 @@ export const info = {
     ],
     portfolio: [ 
         {
+            title: "Toronto Subway Delay Analysis",
+            description: "The Toronto Transit Commission (TTC) subway system is a critical part of Toronto’s public transportation network, servicing over a million riders daily across multiple lines. However, subway delays have been a persistent issue, impacting the efficiency and reliability of the service. Understanding the primary causes of these delays and how they vary by time of day and across different subway lines is essential for improving service quality and enhancing passenger experience." +
+                "This study aims to investigate the following questions: " +
+                '"What are the primary causes of subway delays in Toronto and how do these delays vary by subway line/station?" and ' +
+                '"Can we estimate the duration of subway delays across Toronto’s TTC system based on different predictors?" ',
+            source: "https://github.com/Avi04w/TorontoSubwayDelayAnalysis",
+            website: "https://avi04w.github.io/TorontoSubwayDelayAnalysis/",
+            image: torontosubway
+        },
+        {
             title: "Twitter Data Analysis",
             description: "This is a trend analysis on recent tweets mentioning Toronto using an unsupervised learning model. I extracted tweets using the Tweepy library and Twitter API, cleaned the data with libraries such as Pandas and NLTK, and applied Latent Dirichlet Allocation (LDA) to identify topics. By evaluating model coherence scores, I ensured accurate and meaningful topic identification, providing insights into current social media trends.",
             source: "https://github.com/Avi04w/Twitter-Analysis",
@@ -99,11 +110,11 @@ export const info = {
             source: "https://github.com/Avi04w/Cinematch",
             image: cineMatch,
         },
-        {
-            title: "UFound",
-            description: "This is a React JavaScript web application. It is an online lost and found for Uoft Students. If users find a lost item on campus, they can create a posting with an image of the item along with the location of where they found it. The information is stored using a NoSQL document database, Google FireStore.",
-            source: "https://github.com/Avi04w/uoft-lost-and-found",
-            image: uFound
-        },
+        // {
+        //     title: "UFound",
+        //     description: "This is a React JavaScript web application. It is an online lost and found for Uoft Students. If users find a lost item on campus, they can create a posting with an image of the item along with the location of where they found it. The information is stored using a NoSQL document database, Google FireStore.",
+        //     source: "https://github.com/Avi04w/uoft-lost-and-found",
+        //     image: uFound
+        // },
     ]
 }
