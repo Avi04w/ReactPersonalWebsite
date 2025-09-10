@@ -19,7 +19,7 @@ export const info = {
     miniBio: [ 
         {
             emoji: '📚',
-            text: 'Third Year Student at the University of Toronto (St. George Campus)'
+            text: 'Fourth Year Student at the University of Toronto (St. George Campus)'
         },
         {
             emoji: '🍁',
@@ -27,7 +27,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Incoming Software Development Engineer Intern at Amazon"
+            text: "Previous Software Development Engineer Intern at Amazon"
         },
         {
             emoji: "📧",
@@ -55,7 +55,7 @@ export const info = {
     bio: "Hello! My name is Avi Walia. I am a fourth-year computer science student at UofT completing a specialist degree in data science. I was recently an SDE intern at Amazon and a full-stack developer intern at Third Eye Solutions. I love playing and watching basketball (go Raptors!!) and going on walks with my dog. ",
     skills:
         {
-            proficientWith: ['Python', 'SQL', 'Pandas', 'NumPy', 'scikit-learn', 'GCP Firebase', 'HTML/CSS', 'Java', 'R', 'Javascript', 'React', 'Flask', 'C', 'Apache Maven'],
+            proficientWith: ['Python', 'SQL', 'R', 'Javascript', 'AWS', 'Java', 'React', 'Pandas', 'NumPy', 'scikit-learn', 'Git', 'Flask', 'HTML/CSS', 'C'],
             exposedTo: []
         }
     ,
