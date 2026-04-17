@@ -93,12 +93,6 @@ export const info = {
             image: torontosubway
         },
         {
-            title: "Twitter Data Analysis",
-            description: "This is a trend analysis on recent tweets mentioning Toronto using an unsupervised learning model. I extracted tweets using the Tweepy library and Twitter API, cleaned the data with libraries such as Pandas and NLTK, and applied Latent Dirichlet Allocation (LDA) to identify topics. By evaluating model coherence scores, I ensured accurate and meaningful topic identification, providing insights into current social media trends.",
-            source: "https://github.com/Avi04w/Twitter-Analysis",
-            image: twitter,
-        },
-        {
             title: "Spotify Manager",
             description: "I created a spotify spoof that allows users to control their Spotify playback on any device. The app will detect any device that you are logged in to and your current playback will be displayed on the player. It makes requests to the Spotify API such as pause, play, skip, etc., using OkHttp and uses the OAuth 2.0 Authentication Code Flow to authenticate users and access their Spotify accounts. I created this app using Java and the GUI was made with Java Swing. Something else about me is that this is my favourite song!",
             source: "https://github.com/Avi04w/SpotifyManager",
@@ -109,6 +103,12 @@ export const info = {
             description: "This web app takes a person's movie watch history (can be downloaded from streaming services such as Netflix) and recommends similar movies to watch. I built the movies recommendation algorithm using machine learning tools in Python (NumPy, pandas, and scikit-learn) and the front end was created using ReactJS and HTML/CSS. The movie recommendation data was sent from Python to the front end using Flask as I created my own API to accomplish this. Each movie is assigned a sequence of numbers based on their title, genre, and description, and are treated as vectors. The similarities between each movie are computed using the cosine similarity function and assigned a value to be compared altogether.",
             source: "https://github.com/Avi04w/Cinematch",
             image: cineMatch,
+        },
+        {
+            title: "Twitter Data Analysis",
+            description: "This is a trend analysis on recent tweets mentioning Toronto using an unsupervised learning model. I extracted tweets using the Tweepy library and Twitter API, cleaned the data with libraries such as Pandas and NLTK, and applied Latent Dirichlet Allocation (LDA) to identify topics. By evaluating model coherence scores, I ensured accurate and meaningful topic identification, providing insights into current social media trends.",
+            source: "https://github.com/Avi04w/Twitter-Analysis",
+            // image: twitter,
         },
         // {
         //     title: "UFound",
