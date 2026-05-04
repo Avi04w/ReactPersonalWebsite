@@ -1,5 +1,5 @@
 // import mazeRunner from "../img/mazeRunner.png"
-import twitter from "../img/twitterimg.png"
+// import twitter from "../img/twitterimg.png"
 // import uFound from "../img/uFound.png"
 import torontosubway from "../img/TorontoSubwayPic.png"
 import spotifyManager from "../img/spotify.png"
